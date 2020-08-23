@@ -38,6 +38,7 @@ const letterPositions = function(sentence) {
   return results;
 };
 
+module.exports = letterPositions;
 
-let res = letterPositions("hello")
-console.log(assertArraysEqual(res['h'], [0])); 
+// let res = letterPositions("hello")
+// console.log(assertArraysEqual(res['h'], [0])); 

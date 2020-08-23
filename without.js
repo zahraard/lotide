@@ -32,3 +32,5 @@ let without = function(source, itemsToRemove){
   }
   return arr;
 }
+
+module.exports = without;
